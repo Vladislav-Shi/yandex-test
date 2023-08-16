@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: LocalDockerfile
+    container_name: tg_bot
+    restart: always
+    command: python run_bot.py
+    env_file:
+      - ./.env

@@ -10,6 +10,7 @@ packages = [{include = "yandex_test"}]
 python = "^3.10"
 aiogram = "^3.0.0rc1"
 pydantic-settings = "^2.0.3"
+speechrecognition = "^3.10.0"
 
 
 [build-system]
