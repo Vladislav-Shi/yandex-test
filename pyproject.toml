@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "yandex-test"
+version = "0.1.0"
+description = ""
+authors = ["Vladislav-Shi <vlad.shirobockow@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "yandex_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^3.0.0rc1"
+pydantic-settings = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
